@@ -91,7 +91,7 @@ set noswapfile
 set wildignore=*.swp,*.bak,*.pyc,*.class,.svn
 
 " 突出显示当前列
-set cursorcolumn
+" set cursorcolumn
 " 突出显示当前行
 set cursorline
 
@@ -665,8 +665,8 @@ endif
 set background=dark
 set t_Co=256
 
-colorscheme solarized
-" colorscheme molokai
+" colorscheme solarized
+colorscheme molokai
 " colorscheme desert
 
 

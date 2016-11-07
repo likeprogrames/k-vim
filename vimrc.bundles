@@ -41,7 +41,8 @@ Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 " 代码自动补全
 " 迄今为止用到的最好的自动VIM自动补全插件
 " 重启 :YcmRestartServer
-Plug 'Valloric/YouCompleteMe'
+" 使用自己目录fork出来的.最新的版本在centos上编译起来太麻烦
+Plug 'likeprogrames/YouCompleteMe'
 " 自动补全单引号，双引号等
 Plug 'Raimondi/delimitMate'
 " 自动补全html/xml标签
